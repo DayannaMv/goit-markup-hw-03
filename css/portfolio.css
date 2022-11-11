@@ -1,0 +1,90 @@
+/* ---- ---- ---- MAIN ---- ---- ----*/
+
+  .buttons .button {background-color: #F5F4FA;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  }
+
+  .buttons .button:hover,
+  .buttons .button:focus,
+  .buttons .button:active {
+    color: #F5F4FA;
+    background-color: var(--color-primario);
+  }
+
+  /* ---- ---- ---- FLEXBOX ---- ---- ----*/
+  .container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+  
+  .item-img {
+  width: 370px;
+  height: 404px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  }
+  .item-img:hover {
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+   cursor: pointer;
+  }
+
+  .subt-one {
+  
+  width: 322px;
+  height: 36px;
+  }
+
+
+  
+
+  
+  /* ---- ---- ---- FOOTER ---- ---- ---- */
+  
+  .footer-link {
+    color: var(--color-primario);
+    text-decoration: none;
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 1688px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+  }
+  
+  .address-two {
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 1733px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+  }
+  
+  .paragraph {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 516px;
+    top: 1703px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  
