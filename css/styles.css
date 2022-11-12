@@ -1,6 +1,7 @@
 /* ---- ---- ---- VARIABLE ---- ---- ----*/
 :root {
     --color-primario:rgb(33, 150, 243);
+    --color-rectangle: rgb(47, 48, 58);
   }
   /* ---- ---- ---- LISTAS SIN PUNTOS ---- ---- ----*/
   ul {
