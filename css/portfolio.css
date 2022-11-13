@@ -8,6 +8,14 @@
 }
 /* ---- ---- ---- BUTTONS ---- ---- ----*/
 
+.border {
+  border: 1px solid #ececec;
+  position: absolute;
+  width: 1600px;
+  height: 0px;
+  left: 0px;
+  top: 80px;
+}
 .container .button {
   width: 145px;
   height: 38px;
@@ -21,11 +29,13 @@
   border-color: #f5f4fa;
   overflow: hidden;
   margin: 8px;
-  margin-top: 94px;
+  margin-top: 106px;
+  margin-bottom: 50px;
   text-align: center;
   cursor: pointer;
-  
 }
+
+
 .button:hover,
 .button:focus,
 .button:active {
@@ -81,7 +91,6 @@ body {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
-
 }
 
 /* ---- ---- ---- FOOTER ---- ---- ---- */
@@ -125,11 +134,4 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-/*footer {
-display: block;
-background:#2F3034;
-width: 1600px;
-height: 252px;
 }
