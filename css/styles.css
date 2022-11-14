@@ -235,7 +235,7 @@ body {
   margin: 6.5px;
   text-align: center;
 }
-/* ---- ---- ---- EQUUIPO DE TRABAJO ---- ---- ----*/
+/* ---- ---- ---- EQUIPO DE TRABAJO ---- ---- ----*/
 
 .container .cards {
   width: 270px;
@@ -329,3 +329,4 @@ body {
 .tel:active {
   color: var(--color-primario);
 }
+
